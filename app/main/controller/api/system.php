@@ -118,7 +118,7 @@ class System extends Controller\AccessController {
     public function setDestination(\Base $f3){
         $postData = (array)$f3->get('POST');
         self::getLogger('DEBUG')->write(
-            $postData
+            implode( ", ", $postData)
         );
         $return = (object) [];
         $return->error = [];
