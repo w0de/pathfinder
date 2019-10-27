@@ -2928,8 +2928,6 @@ define([
                 description = 'Set new waypoint';
                 break;
         }
-        console.log('hello');
-        console.log(destData);
 
         $.ajax({
             type: 'POST',
