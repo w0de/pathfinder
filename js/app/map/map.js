@@ -643,9 +643,11 @@ define([
             case 'set_destination':
                 systemData = system.getSystemData();
                 Util.setDestination('set_destination', 'system', systemData);
+                break;
             case 'add_first_waypoint':
                 systemData = system.getSystemData();
                 Util.setDestination('add_first_waypoint', 'system', systemData);
+                break;
             case 'add_last_waypoint':
                 systemData = system.getSystemData();
                 Util.setDestination('add_last_waypoint', 'system', systemData);
