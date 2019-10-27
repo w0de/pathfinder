@@ -1012,7 +1012,7 @@ define([
                         },
                         createdCell: function(cell, cellData, rowData, rowIndex, colIndex){
                             $(cell).on('click', function(e){
-                                Util.setDestination('set_destination', 'station', {systemid: cellData, name: rowData.name});
+                                Util.setDestination('set_destination', 'station', {systemId: cellData, name: rowData.name});
                             });
                         }
                     },{
